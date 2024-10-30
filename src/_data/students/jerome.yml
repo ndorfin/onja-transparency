@@ -1,0 +1,20 @@
+name: Jerome Emilien
+short_name: Jerome
+linkedin: https://www.linkedin.com/in/jerome-emilien/
+graduated: true
+clients:
+  - 
+    id: quick-think
+    dates:
+      start: 2021-10-01
+      end: 2021-12-01
+  - 
+    id: share-scoops
+    dates:
+      start: 2021-12-01
+      end: 2023-09-01
+  - 
+    id: inspired-consulting
+    dates:
+      start: 2024-02-01
+      end: today
