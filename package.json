@@ -1,0 +1,17 @@
+{
+  "name": "onja-transparency",
+  "version": "1.0.0",
+  "description": "Shining a light on Onja",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "civil-action",
+    "transparency"
+  ],
+  "author": "Shaun O'Connell <ndorfin@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
