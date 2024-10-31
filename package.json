@@ -1,17 +1,21 @@
 {
   "name": "onja-transparency",
   "version": "1.0.0",
-  "description": "Shining a light on Onja",
+  "description": "A closer look at Onja.org",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [
-    "civil-action",
-    "transparency"
-  ],
+	"engines": {
+		"node": "^20.15.1",
+		"npm": "^10.7.0"
+	},
+  "scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy"
+	},
+  "keywords": [],
   "author": "Shaun O'Connell <ndorfin@gmail.com>",
   "license": "MIT",
-  "type": "module",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+		"js-yaml": "^4.1.0"
   }
 }
