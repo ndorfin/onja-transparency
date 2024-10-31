@@ -5,5 +5,6 @@ origin: South Africa
 role: Lecturer (Web development)
 linkedin: https://www.linkedin.com/in/ndorfin/
 dates:
-  start: 2020-01-02
-  end: 2020-10-01
+  -
+    start: 2020-01-02
+    end: 2020-10-01

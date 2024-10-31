@@ -5,5 +5,6 @@ origin: New Zealand
 role: Founder, Board member
 linkedin: https://www.linkedin.com/in/sam-lucas-onja/
 dates:
-  start: 2013-02-01
-  end: today
+  -
+    start: 2013-02-01
+    end: today
