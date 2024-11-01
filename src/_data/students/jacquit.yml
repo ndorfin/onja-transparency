@@ -1,0 +1,20 @@
+name: Jacquit Ratongamanahaja
+short_name: Jacquit
+linkedin: https://www.linkedin.com/in/jacquit-ratongamanahaja-510223270/
+graduated: true
+clients:
+  - 
+    id: austin-community-college
+    dates:
+      start: 2021-12-01
+      end: 2022-03-15
+  -
+    id: qidz
+    dates:
+      start: 2022-03-16
+      end: 2022-04-30
+  -
+    id: who-moves
+    dates:
+      start: 2022-05-01
+      end: today
