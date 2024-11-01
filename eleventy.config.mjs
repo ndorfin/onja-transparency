@@ -1,7 +1,7 @@
+import yaml from 'js-yaml';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
-const yaml = require('js-yaml');
 const markdownIt = require('markdown-it');
 const md = new markdownIt({html: true});
 

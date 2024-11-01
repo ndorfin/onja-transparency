@@ -1,0 +1,19 @@
+---
+title: All clients
+heading: All clients
+summary: The customers, past and present, that have used Onja's services
+description: The customers, past and present, that have used Onja's services
+eleventyExcludeFromCollections: true
+---
+{% set clientList = clients | objToArray %}
+<ul>
+	{% for member in clientList %}
+		<li>
+			{% if member.website %}
+				<a href="{{ member.website }}">{{ member.name }}</a>
+			{% else %}
+				{{ member.name }}
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,15 @@
+---
+title: All devs
+heading: All developers
+summary: The students and developers, past and present, that have passed through Onja
+description: The students and developers, past and present, that have passed through Onja
+eleventyExcludeFromCollections: true
+---
+{% set devList = students | objToArray %}
+<ul>
+	{% for member in devList %}
+		<li>
+			{{ member.name }}
+		</li>
+	{% endfor %}
+</ul>
