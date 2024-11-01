@@ -1,0 +1,36 @@
+dates:
+  end: 2022-12-31
+  start: 2022-01-01
+employees:
+  employed:
+    fulltime: 40
+    parttime: 10
+    hours_per_week: 1600
+  volunteers:
+    count: 10
+    hours: 100
+performance:
+  revenue:
+    donors: 1132
+    fees: 0
+    goods_services: 448880
+    interest: 1
+    other: 159
+    total: 450172
+  expenses:
+    fundraising: 0
+    employment: 150663
+    goods_services: 0
+    donations: 0
+    other: 138039
+    total: 288702
+  surplus: 161470
+position:
+  assets:
+    liquid: 2257472
+    non_liquid: 28763
+    total: 254510
+  liabilities:
+    total: 0
+accumulated:
+  total: 254510
