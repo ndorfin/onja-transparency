@@ -1,37 +1,37 @@
 dates:
-  end: 2022-12-31
-  start: 2022-01-01
-url: 'returns/CC52785_AnnualReturnSummary_AR009.pdf'
+  end: 2023-12-31
+  start: 2023-01-01
+url: 'returns/CC52785_AnnualReturnSummary_AR010.pdf'
 employees:
   employed:
-    fulltime: 40
-    parttime: 10
-    hours_per_week: 1600
+    fulltime: 31
+    parttime: 0
+    hours_per_week: 1240
   volunteers:
     count: 10
-    hours: 100
+    hours: 375
 performance:
   revenue:
-    donors: 1132
+    donors: 20764
     fees: 0
-    goods_services: 448880
-    interest: 1
-    other: 159
-    total: 450172
+    goods_services: 478144
+    interest: 358
+    other: 194
+    total: 499460
   expenses:
     fundraising: 0
-    employment: 150663
-    goods_services: 0
+    employment: 240032
+    goods_services: 302268
     donations: 0
-    other: 138039
-    total: 288702
-  surplus: 161470
+    other: 0
+    total: 542300
+  surplus: -42840
 position:
   assets:
-    liquid: 2257472
-    non_liquid: 28763
-    total: 254510
+    liquid: 180271
+    non_liquid: 39946
+    total: 220217
   liabilities:
-    total: 0
+    total: 8548
 accumulated:
-  total: 254510
+  total: 211669
