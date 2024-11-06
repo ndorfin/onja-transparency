@@ -1,6 +1,7 @@
 name: Shaun O'Connell
 short_name: Shaun
-type: volunteer, contract
+volunteer: true
+type: contract
 origin: South Africa
 role: Lecturer (Web development)
 linkedin: https://www.linkedin.com/in/ndorfin/

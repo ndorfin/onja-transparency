@@ -1,6 +1,7 @@
 name: Loïc Lepinois
 short_name: Loïc
-type: volunteer, contract
+volunteer: true
+type: contract
 origin: Belgium
 role: Lecturer (React/JavaScript)
 linkedin: https://www.linkedin.com/in/loic-lepinois/
