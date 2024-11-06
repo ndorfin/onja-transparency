@@ -1,5 +1,6 @@
 import yaml from 'js-yaml';
 import { createRequire } from 'module';
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
@@ -13,6 +14,8 @@ function dateWithTimeZoneOffset(date) {
 }
 
 export default async function(config) {	
+	/* Add build:prod pathprefix capabilities for builds against gh-pages */
+	config.addPlugin(EleventyHtmlBasePlugin);
 	/* Add YAML support */
 	config.addDataExtension('yml', contents => yaml.load(contents));
 
