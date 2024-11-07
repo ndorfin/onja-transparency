@@ -4,11 +4,6 @@ linkedin: https://www.linkedin.com/in/sandy-raveloarisoa-804620221/
 graduated: true
 clients:
   - 
-    id: gophers
-    dates:
-      start: 2021-04-01
-      end: 2021-06-30
-  - 
     id: protect-our-winters
     dates:
       start: 2021-08-01
