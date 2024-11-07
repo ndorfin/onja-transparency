@@ -1,0 +1,25 @@
+name: Peta Jeannie
+short_name: Peta
+graduated: true
+linkedin: https://www.linkedin.com/in/peta-jeannie-956674292/
+clients:
+  - 
+    id: wasabi-technologies
+    dates:
+      start: 2024-07-01
+      end: today
+  - 
+    id: neuron-soundware
+    dates:
+      start: 2024-03-02
+      end: 2024-06-01
+  - 
+    id: recordsure
+    dates:
+      start: 2022-09-01
+      end: 2024-03-01
+  - 
+    id: aline
+    dates:
+      start: 2022-01-01
+      end: 2022-09-01
