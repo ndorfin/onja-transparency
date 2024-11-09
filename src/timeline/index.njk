@@ -18,8 +18,9 @@ eleventyExcludeFromCollections: true
 		{% set staffIndex = 0 %}
 		{% for staffYear in staffByYear %}
 			{% if staffYear.year == year %}
+				{% set staffCount = staffByYear[staffIndex].members.length %}
 				<div>
-					<dt>Employed staff = {{ staffByYear[staffIndex].members.length }}</dt>
+					<dt>Employed staff = {{ staffCount }}</dt>
 					<dd>
 						<ul>
 							{% for member in staffYear.members %}
