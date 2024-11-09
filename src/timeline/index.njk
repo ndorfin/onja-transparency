@@ -12,50 +12,52 @@ eleventyExcludeFromCollections: true
 {# {% set year = return %} #}
 <section id="timeline_{{ year }}">
 	<h3>{{ year }}</h3>
-	<dl>
 
-		{% set staffByYear = staff | objToArray | groupedByYear %}
-		{% set staffIndex = 0 %}
-		{% for staffYear in staffByYear %}
-			{% if staffYear.year == year %}
-				{% set staffCount = staffByYear[staffIndex].members.length %}
-				<div>
-					<dt>Employed staff = {{ staffCount }}</dt>
-					<dd>
-						<ul>
-							{% for member in staffYear.members %}
-								<li>{{ member.name }}</li>
-							{% endfor %}
-						</ul>
-					</dd>
-				</div>
+	{% set staffByYear = staff | objToArray | groupedByYear %}
+	{% set staffIndex = 0 %}
+	{% for staffYear in staffByYear %}
+		{% if staffYear.year == year %}
+			{% set staffCount = staffByYear[staffIndex].members.length %}
+			<details>
+				<summary>Employed staff = {{ staffCount }}</summary>
+				<ul>
+					{% for member in staffYear.members %}
+						<li>{{ member.name }}</li>
+					{% endfor %}
+				</ul>
+			</details>
+		{% endif %}
+		{% set staffIndex = staffIndex + 1 %}
+	{% endfor %}
+
+	{% set devsByYear = students | objToArray | groupedByYear %}
+	{% set devIndex = 0 %}
+	{% for devYear in devsByYear %}
+		{% if devYear.year == year %}
+			{% set devCount = devsByYear[devIndex].members.length %}
+			<details>
+				<summary>Employed devs = {{ devCount }}</summary>
+				<ul>
+					{% for member in devYear.members %}
+						<li>{{ member.name }}</li>
+					{% endfor %}
+				</ul>
+			</details>
+			{% if return.performance %}
+				<dl>
+					<dt>Total annual income from all devs:</dt>
+					<dd>{{ return.performance.revenue.goods_services.toFixed(2) }} NZD</dd>
+					<dt>Average annual income per dev:</dt>
+					<dd>{{ (return.performance.revenue.goods_services / devCount).toFixed(2) }} NZD</dd>
+					<dt>Average annual dev salary:</dt>
+					<dd>{{ (500 * 12).toFixed(2) }} NZD</dd>
+					<dt>Profit generated per dev:</dt>
+					<dd>{{ (return.performance.revenue.goods_services / devCount).toFixed(2) - (500 * 12) }} NZD</dd>
+				</dl>
 			{% endif %}
-			{% set staffIndex = staffIndex + 1 %}
-		{% endfor %}
-
-		{% set devsByYear = students | objToArray | groupedByYear %}
-		{% set devIndex = 0 %}
-		{% for devYear in devsByYear %}
-			{% if devYear.year == year %}
-				{% set devCount = devsByYear[devIndex].members.length %}
-				<div>
-					<dt>Employed devs = {{ devCount }}</dt>
-					<dd>
-						<ul>
-							{% for member in devYear.members %}
-								<li>{{ member.name }}</li>
-							{% endfor %}
-						</ul>
-					</dd>
-				</div>
-			{% endif %}
-			{% set devIndex = devIndex + 1 %}
-		{% endfor %}
-
-	</dl>
-	<div class="chart">
-
-	</div>
+		{% endif %}
+		{% set devIndex = devIndex + 1 %}
+	{% endfor %}
 </section>
 {% endfor %}
 
