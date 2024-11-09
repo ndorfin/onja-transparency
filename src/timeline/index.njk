@@ -1,0 +1,60 @@
+---
+title: Timeline
+heading: Timeline
+summary: Time-based analysis of staff, students and clients
+description: Time-based analysis of staff, students and clients
+eleventyExcludeFromCollections: true
+---
+{% set returnsList = returns | objToArray %}
+{# {% set returnsList = [2022, 2023, 2024] %} #}
+{% for return in returnsList %}
+{% set year = return.dates.start.getFullYear() %}
+{# {% set year = return %} #}
+<section id="timeline_{{ year }}">
+	<h3>{{ year }}</h3>
+	<dl>
+
+		{% set staffByYear = staff | objToArray | groupedByYear %}
+		{% set staffIndex = 0 %}
+		{% for staffYear in staffByYear %}
+			{% if staffYear.year == year %}
+				<div>
+					<dt>Employed staff = {{ staffByYear[staffIndex].members.length }}</dt>
+					<dd>
+						<ul>
+							{% for member in staffYear.members %}
+								<li>{{ member.name }}</li>
+							{% endfor %}
+						</ul>
+					</dd>
+				</div>
+			{% endif %}
+			{% set staffIndex = staffIndex + 1 %}
+		{% endfor %}
+
+		{% set devsByYear = students | objToArray | groupedByYear %}
+		{% set devIndex = 0 %}
+		{% for devYear in devsByYear %}
+			{% if devYear.year == year %}
+				{% set devCount = devsByYear[devIndex].members.length %}
+				<div>
+					<dt>Employed devs = {{ devCount }}</dt>
+					<dd>
+						<ul>
+							{% for member in devYear.members %}
+								<li>{{ member.name }}</li>
+							{% endfor %}
+						</ul>
+					</dd>
+				</div>
+			{% endif %}
+			{% set devIndex = devIndex + 1 %}
+		{% endfor %}
+
+	</dl>
+	<div class="chart">
+
+	</div>
+</section>
+{% endfor %}
+

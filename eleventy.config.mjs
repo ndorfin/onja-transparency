@@ -1,9 +1,11 @@
 import yaml from 'js-yaml';
 import { createRequire } from 'module';
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import groupedByYear from './lib/grouped_by_year.mjs';
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
+
 const md = new markdownIt({html: true});
 
 function dateWithTimeZoneOffset(date) {
@@ -39,6 +41,7 @@ export default async function(config) {
 	config.addFilter('debug', (content) => {
 		return inspect(content);
 	});
+	config.addFilter('groupedByYear', groupedByYear);
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function(date) {
