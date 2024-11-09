@@ -50,6 +50,7 @@
 		
 		
 			
+				
 				<div>
 					<dt>Employed staff = 7</dt>
 					<dd>
@@ -136,6 +137,7 @@
 			
 		
 			
+				
 				<div>
 					<dt>Employed staff = 9</dt>
 					<dd>
@@ -258,6 +260,7 @@
 			
 		
 			
+				
 				<div>
 					<dt>Employed staff = 13</dt>
 					<dd>
@@ -390,6 +393,7 @@
 			
 		
 			
+				
 				<div>
 					<dt>Employed staff = 19</dt>
 					<dd>
@@ -536,6 +540,7 @@
 			
 		
 			
+				
 				<div>
 					<dt>Employed staff = 23</dt>
 					<dd>
@@ -689,7 +694,7 @@ page: {
   filePathStem: '/timeline/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-09T14:26:13.772Z,
+  date: 2024-11-09T14:28:12.163Z,
   rawInput: '{% set returnsList = returns | objToArray %}\n' +
     '{# {% set returnsList = [2022, 2023, 2024] %} #}\n' +
     '{% for return in returnsList %}\n' +
@@ -703,8 +708,9 @@ page: {
     '\t\t{% set staffIndex = 0 %}\n' +
     '\t\t{% for staffYear in staffByYear %}\n' +
     '\t\t\t{% if staffYear.year == year %}\n' +
+    '\t\t\t\t{% set staffCount = staffByYear[staffIndex].members.length %}\n' +
     '\t\t\t\t<div>\n' +
-    '\t\t\t\t\t<dt>Employed staff = {{ staffByYear[staffIndex].members.length }}</dt>\n' +
+    '\t\t\t\t\t<dt>Employed staff = {{ staffCount }}</dt>\n' +
     '\t\t\t\t\t<dd>\n' +
     '\t\t\t\t\t\t<ul>\n' +
     '\t\t\t\t\t\t\t{% for member in staffYear.members %}\n' +
