@@ -1,0 +1,22 @@
+name: Daniel Fabrice
+short_name: Daniel
+origin: mg
+linkedin: https://www.linkedin.com/in/daniel-fabrice/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: randbee-consultants
+    start: 2023-05-01
+    end: today
+  - 
+    id: akvo
+    start: 2021-10-01
+    end: 2022-09-01

@@ -1,0 +1,26 @@
+name: Rinon Tendrinomena
+short_name: Rinon
+origin: mg
+linkedin: https://www.linkedin.com/in/rinon-tendrinomena-6bb62720a/
+role: Junior Tech Mentor, Full-stack developer
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: 2023-03-31
+  - 
+    start: 2023-03-01
+    end: today
+clients:
+  - 
+    id: filament-syfter
+    start: 2022-03-01
+    end: 2023-02-01
+  - 
+    id: protect-our-winters
+    start: 2021-07-01
+    end: 2022-02-01

@@ -1,0 +1,30 @@
+name: Noeline Marie
+short_name: Noeline
+origin: mg
+linkedin: https://www.linkedin.com/in/noeline-marie/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: neuron-soundware
+    start: 2023-04-01
+    end: today
+  - 
+    id: popety-io
+    start: 2022-06-01
+    end: 2022-09-01
+  - 
+    id: voicescript
+    start: 2021-09-30
+    end: 2022-05-01
+  - 
+    id: trezor
+    start: 2021-09-01
+    end: 2021-09-29

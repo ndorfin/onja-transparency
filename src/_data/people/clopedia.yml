@@ -1,0 +1,27 @@
+name: Clopedia Nomenjanahary
+short_name: Clopedia
+origin: mg
+linkedin: https://www.linkedin.com/in/clopedia-nomenjanahary/
+graduated: true
+role: Front-end developer
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: wasabi-technologies
+    start: 2024-07-01
+    end: today
+  - 
+    id: ebm
+    start: 2022-03-01
+    end: 2024-04-01
+  - 
+    id: mobile-labs
+    start: 2021-10-01
+    end: 2021-11-30

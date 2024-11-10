@@ -1,0 +1,26 @@
+name: Sarah Razanatsoa
+short_name: Sarah
+origin: mg
+linkedin: https://www.linkedin.com/in/sarah-razanatsoa/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: inspired-consulting
+    start: 2024-02-01
+    end: today
+  - 
+    id: share-scoops
+    start: 2021-12-01
+    end: 2023-10-01
+  -
+    id: founder-tribes
+    start: 2021-03-01
+    end: 2021-08-01

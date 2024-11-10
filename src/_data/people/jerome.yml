@@ -1,0 +1,26 @@
+name: Jerome Emilien
+short_name: Jerome
+origin: mg
+linkedin: https://www.linkedin.com/in/jerome-emilien/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: quick-think
+    start: 2021-10-01
+    end: 2021-12-01
+  - 
+    id: share-scoops
+    start: 2021-12-01
+    end: 2023-09-01
+  - 
+    id: inspired-consulting
+    start: 2024-02-01
+    end: today

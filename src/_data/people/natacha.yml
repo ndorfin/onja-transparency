@@ -1,0 +1,22 @@
+name: Natacha Harivelomandimby
+short_name: Natacha
+origin: mg
+linkedin: https://www.linkedin.com/in/natacha-harivelomandimby-5b2a0b243/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: world-data-lab
+    start: 2022-06-01
+    end: today
+  - 
+    id: common-ninja
+    start: 2022-02-01
+    end: 2022-05-01

@@ -1,0 +1,30 @@
+name: Prisca Roseline
+short_name: Prisca
+origin: mg
+linkedin: https://www.linkedin.com/in/prisca-roseline-a59229270/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: allsafe
+    start: 2023-05-01
+    end: today
+  - 
+    id: emida-technologies
+    start: 2023-02-01
+    end: 2022-08-01
+  - 
+    id: eskwelabs
+    start: 2022-07-01
+    end: 2021-12-01
+  - 
+    id: mobile-labs
+    start: 2021-11-30
+    end: 2021-10-01

@@ -1,0 +1,26 @@
+name: Rosny Ratsianompo
+short_name: Rosny
+origin: mg
+linkedin: https://www.linkedin.com/in/rosny-ratsianompo-18a211279/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: visup
+    start: 2024-01-01
+    end: today
+  - 
+    id: smylee
+    start: 2022-04-01
+    end: 2023-03-01
+  - 
+    id: books2all
+    start: 2021-10-01
+    end: 2022-03-01

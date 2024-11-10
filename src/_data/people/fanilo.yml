@@ -1,0 +1,26 @@
+name: Fanilo Andriamarohaja
+short_name: Fanilo
+origin: mg
+linkedin: https://www.linkedin.com/in/fanilo-andriamarohaja/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: yk-robotics
+    start: 2023-06-01
+    end: today
+  -
+    id: akvo
+    start: 2022-05-01
+    end: 2022-10-01
+  -
+    id: austin-community-college
+    start: 2021-10-01
+    end: 2022-02-01

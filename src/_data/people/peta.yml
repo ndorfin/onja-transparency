@@ -1,0 +1,30 @@
+name: Peta Jeannie
+short_name: Peta
+origin: mg
+linkedin: https://www.linkedin.com/in/peta-jeannie-956674292/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: wasabi-technologies
+    start: 2024-07-01
+    end: today
+  - 
+    id: neuron-soundware
+    start: 2024-03-02
+    end: 2024-06-01
+  - 
+    id: recordsure
+    start: 2022-09-01
+    end: 2024-03-01
+  - 
+    id: aline
+    start: 2022-01-01
+    end: 2022-09-01

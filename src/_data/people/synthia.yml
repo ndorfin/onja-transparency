@@ -1,0 +1,30 @@
+name: Synthia Hanitriniaina
+short_name: Synthia
+origin: mg
+linkedin: https://www.linkedin.com/in/synthia-hanitriniaina-b13973247/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: mlr-srl
+    start: 2023-06-01
+    end: today
+  - 
+    id: quine
+    start: 2022-05-01
+    end: 2023-04-01
+  -
+    id: lifedata
+    start: 2022-03-01
+    end: 2022-04-30
+  -
+    id: books2all
+    start: 2021-10-01
+    end: 2022-03-01

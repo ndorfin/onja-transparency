@@ -1,0 +1,24 @@
+name: Anita Rasoa
+short_name: Anita
+origin: mg
+linkedin: https://www.linkedin.com/in/anita-rasoa/
+graduated: true
+role: Front-end developer
+education: 
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment: 
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: 90poe
+    start: 2022-08-01
+    end: today
+  - 
+    id: lighthouse
+    start: 2021-06-01
+    end: 2022-07-01
+

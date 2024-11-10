@@ -1,0 +1,22 @@
+name: Tantely Andrianarivola
+short_name: Tantely
+origin: mg
+linkedin: https://www.linkedin.com/in/tantely-andrianarivola/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: 90poe
+    start: 2022-06-01
+    end: today
+  - 
+    id: voicescript
+    start: 2021-09-02
+    end: 2022-05-01

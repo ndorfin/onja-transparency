@@ -1,0 +1,26 @@
+name: Manjaka Randrianirina
+short_name: Manjaka
+origin: mg
+linkedin: https://www.linkedin.com/in/manjaka-randrianirina/
+graduated: true
+education:
+  -
+    start: 2019-01-01
+    end: 2020-12-31
+employment:
+  -
+    start: 2021-01-01
+    end: today
+clients:
+  - 
+    id: thds
+    start: 2024-05-01
+    end: today
+  - 
+    id: goscore
+    start: 2022-06-01
+    end: 2024-03-01
+  - 
+    id: eskwelabs
+    start: 2021-05-01
+    end: 2022-04-01
