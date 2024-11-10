@@ -1,0 +1,111 @@
+.chart {
+
+}
+
+[data-chart-id="dev_revenue_generation"] {
+	position: relative;
+	inline-size: 100%;
+	block-size: calc(var(--chart-max-time-in-months) * 1rem);
+	font-size: 0.75rem;
+
+	h3 {
+		font-size: inherit;
+		margin: 0;
+	}
+
+	ul {
+		list-style: "";
+		margin: 0;
+		padding: 0;
+	}
+
+	.chart_members {
+		position: absolute;
+		inset-inline-start: 10ch;
+		inset-inline-end: 0;
+		inset-block: 0;
+
+		& > li {
+			position: absolute;
+			inset-inline-start: calc(var(--member-index) * 1rem);
+			inset-block-start: 10ch;
+			inset-block-end: 0;
+			inline-size: 1rem;
+			block-size: 100%;
+		}
+
+		h3 {
+			position: absolute;
+			inset-block-start: 0;
+			inset-inline: 0;
+			transform: rotate(-90deg);
+			transform-origin: 0 0;
+		}
+
+		.timeline {
+			position: absolute;
+			inset: 0;
+			inline-size: 100%;
+			block-size: 100%;
+
+			div {
+				--end-offset-year: calc(
+					var(--chart-end-year) - var(--employment-period-end-year))
+				;
+				--end-offset-in-months: calc(
+					var(--chart-max-time-in-months) - (var(--end-offset-year) * 12) - var(--employment-period-end-month)
+				);
+				--start-offset-year: calc(
+					var(--employment-period-start-year) - var(--chart-start-year)
+				);
+				--start-offset-in-months: calc(
+					(var(--end-offset-in-months) * 12) - var(--employment-period-end-month)
+				);
+				
+				position: absolute;
+				inset-inline: 0;
+				inset-block-start: calc(
+					(
+						(
+							(
+								var(--chart-start-year) - var(--employment-period-start-year)
+							) * 12
+						) + var(--employment-period-start-month)
+					)	* 1rem
+				);
+				inset-block-end: calc(
+					(
+						(
+							(
+								var(--chart-start-year) - var(--employment-period-end-year)
+							) * 12
+						) + var(--employment-period-end-month)
+					)	* 1rem
+				);
+				padding: 2px;
+				background-color: lightblue;
+				background-clip: content-box;
+				outline: 1px solid blue;
+				outline-offset: -3px;
+
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.chart_labels {
+		position: absolute;
+		inset-inline-start: 0;
+		inset-block-start: 10ch;
+		inset-block-end: 0;
+		max-inline-size: 10ch;
+
+		li {
+			position: absolute;
+			inset-block-start: calc(var(--label-year-index) * 12rem);
+			inset-inline: 0;
+		}
+	}
+}

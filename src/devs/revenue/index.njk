@@ -1,0 +1,51 @@
+---
+title: Revenue generation
+heading: Revenue generation
+summary: A chart of how each developer has been generating revenue over time
+description: A chart of how each developer has been generating revenue over time
+eleventyExcludeFromCollections: true
+---
+{% set returnsList = returns | objToArray %}
+{% set returnsCount = returnsList.length %}
+{% set maxMonths = (returnsCount * 12) %}
+{% set firstYear = returnsList | first %}
+{% set lastYear = returnsList | last %}
+<div class="chart" data-chart-id="dev_revenue_generation" style="
+	--chart-total-years: {{ returnsCount }};
+	--chart-max-time-in-months: {{ maxMonths }};
+	--chart-start-year: {{ firstYear.dates.start.getFullYear() }};
+	--chart-end-year: {{ lastYear.dates.start.getFullYear() }};
+">
+	{% set devList = students | objToArray %}
+	<ul class="chart_members">
+		{% set devIndex = 0 %}
+		{% for dev in devList %}
+			{% if dev.graduated %}
+				<li style="--member-index: {{ devIndex }};">
+					<h3>{{ dev.short_name }}</h3>
+					<div class="timeline">
+						{% for client in dev.clients %}
+							<div class="employment_period" style="
+								--employment-period-start-year: {{ client.dates.start.getFullYear() }};
+								--employment-period-start-month: {{ client.dates.start.getMonth() + 1 }};
+								--employment-period-end-year: {{ client.dates.end.getFullYear() }};
+								--employment-period-end-month: {{ client.dates.end.getMonth() + 1 }};
+							"><span>{{ clients[client.id].name }}</span></div>
+						{% endfor %}
+					</div>
+				</li>
+				{% set devIndex = devIndex + 1 %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="chart_labels">
+		{% set yearIndex = 0 %}
+		{% for return in returnsList %}
+			{% set year = return.dates.start.getFullYear() %}
+			<li style="
+				--label-year-index: {{ yearIndex }};
+			">{{ year }}</li>
+			{% set yearIndex = yearIndex + 1 %}
+		{% endfor %}
+	</ul>
+</div>
