@@ -1,10 +1,10 @@
 ---
 pagination:
-  data: staff
+  data: people
   size: 1
-  alias: member
-  resolve: values
-permalink: "{{ url.json }}/staff/{{ member.short_name.toLowerCase() }}.json"
+  alias: person
+  resolve: keys
+permalink: "{{ url.json }}/staff/{{ person }}.json"
 layout: null
 ---
-{{ member | stringify | safe }}
+{{ people[person] | stringify | safe }}

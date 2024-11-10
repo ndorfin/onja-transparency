@@ -6,14 +6,12 @@ description: Time-based analysis of staff, students and clients
 eleventyExcludeFromCollections: true
 ---
 {% set returnsList = returns | objToArray %}
-{# {% set returnsList = [2022, 2023, 2024] %} #}
 {% for return in returnsList %}
 {% set year = return.dates.start.getFullYear() %}
-{# {% set year = return %} #}
 <section id="timeline_{{ year }}">
 	<h3>{{ year }}</h3>
 
-	{% set staffByYear = staff | objToArray | groupedByYear %}
+	{% set staffByYear = people | objToArray | groupedByYear %}
 	{% set staffIndex = 0 %}
 	{% for staffYear in staffByYear %}
 		{% if staffYear.year == year %}
@@ -30,34 +28,6 @@ eleventyExcludeFromCollections: true
 		{% set staffIndex = staffIndex + 1 %}
 	{% endfor %}
 
-	{% set devsByYear = students | objToArray | groupedByYear %}
-	{% set devIndex = 0 %}
-	{% for devYear in devsByYear %}
-		{% if devYear.year == year %}
-			{% set devCount = devsByYear[devIndex].members.length %}
-			<details>
-				<summary>Employed devs = {{ devCount }}</summary>
-				<ul>
-					{% for member in devYear.members %}
-						<li>{{ member.name }}</li>
-					{% endfor %}
-				</ul>
-			</details>
-			{% if return.performance %}
-				<dl>
-					<dt>Total annual income from all devs:</dt>
-					<dd>{{ return.performance.revenue.goods_services.toFixed(2) }} NZD</dd>
-					<dt>Average annual income per dev:</dt>
-					<dd>{{ (return.performance.revenue.goods_services / devCount).toFixed(2) }} NZD</dd>
-					<dt>Average annual dev salary:</dt>
-					<dd>{{ (500 * 12).toFixed(2) }} NZD</dd>
-					<dt>Profit generated per dev:</dt>
-					<dd>{{ (return.performance.revenue.goods_services / devCount).toFixed(2) - (500 * 12) }} NZD</dd>
-				</dl>
-			{% endif %}
-		{% endif %}
-		{% set devIndex = devIndex + 1 %}
-	{% endfor %}
 </section>
 {% endfor %}
 

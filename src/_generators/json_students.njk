@@ -2,9 +2,9 @@
 pagination:
   data: students
   size: 1
-  alias: student
+  alias: studentId
   resolve: values
-permalink: "{{ url.json }}/students/{{ student.short_name.toLowerCase() }}.json"
+permalink: "{{ url.json }}/students/{{ studentId }}.json"
 layout: null
 ---
-{{ student | stringify | safe }}
+{{ people[studentId] | stringify | safe }}

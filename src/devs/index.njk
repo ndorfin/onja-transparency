@@ -5,11 +5,27 @@ summary: The students and developers, past and present, that have passed through
 description: The students and developers, past and present, that have passed through Onja
 eleventyExcludeFromCollections: true
 ---
-{% set devList = students | objToArray %}
-<ul>
-	{% for member in devList %}
-		<li>
-			{{ member.name }}
-		</li>
+<ol>
+	{% for studentId in students %}
+		{% set student = people[studentId] %}
+		{% if student.graduated %}
+			<li>
+				<details>
+					<summary>{{ student.name }}</summary>
+					<h3>Education</h3>
+					<p>2 year education at Onja completed</p>
+					<h3>Employment</h3>
+					<ul>
+						{% for client in student.clients %}
+							{% set employer = clients[client.id] %}
+							<li>
+								<b>{{ employer }}</b><br>
+								{{ client.start }} - {{ client.date }}
+							</li>
+						{% endfor %}
+					</ul>
+				</details>
+			</li>
+		{% endif %}
 	{% endfor %}
-</ul>
+</ol>

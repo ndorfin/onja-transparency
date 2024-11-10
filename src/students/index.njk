@@ -1,0 +1,39 @@
+---
+title: Students
+heading: Students
+summary: All students that started at Onja
+description: All students that started at Onja
+eleventyExcludeFromCollections: true
+---
+<ol>
+	{% for studentId in students %}
+		{% set student = people[studentId] %}
+		<li>
+			<details>
+				<summary>{{ student.name }}</summary>
+				<h3>Education</h3>
+				{% if student.graduated %}
+					<p>2 year education at Onja completed</p>
+				{% else %}
+					{% set lastYearOfEducation = student.education | last %}
+					<p>Education incomplete. Last attended in {{ lastYearOfEducation.end.getFullYear() }}</p>
+				{% endif %}
+				{% if student.clients %}
+					<h3>Employment</h3>
+					<ul>
+						{% for client in student.clients %}
+							{% set employer = clients[client.id] %}
+							<li>
+								<b>{{ employer.name }}</b>
+								from 
+								{{ client.start.getFullYear() }}-{{ client.start.getMonth() + 1 }}
+								to 
+								{{ client.end.getFullYear() }}-{{ client.end.getMonth() + 1 }}
+							</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+			</details>
+		</li>
+	{% endfor %}
+</ol>

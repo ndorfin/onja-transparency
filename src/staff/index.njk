@@ -5,7 +5,7 @@ summary: The employees, past and present, that have passed through Onja
 description: The employees, past and present, that have passed through Onja
 eleventyExcludeFromCollections: true
 ---
-{% set staffList = staff | objToArray %}
+{% set staffList = people | objToArray %}
 <ul>
 	{% for member in staffList %}
 		<li>
