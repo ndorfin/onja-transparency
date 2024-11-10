@@ -1,0 +1,36 @@
+{
+	"name": "Synthia Hanitriniaina",
+	"short_name": "Synthia",
+	"linkedin": "https://www.linkedin.com/in/synthia-hanitriniaina-b13973247/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "mlr-srl",
+			"dates": {
+				"start": "2023-06-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "quine",
+			"dates": {
+				"start": "2022-05-01T00:00:00.000Z",
+				"end": "2023-04-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "lifedata",
+			"dates": {
+				"start": "2022-03-01T00:00:00.000Z",
+				"end": "2022-04-30T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "books2all",
+			"dates": {
+				"start": "2021-10-01T00:00:00.000Z",
+				"end": "2022-03-01T00:00:00.000Z"
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Loïc Lepinois",
+	"short_name": "Loïc",
+	"volunteer": true,
+	"type": "contract",
+	"origin": "be",
+	"role": "Lecturer (React/JavaScript)",
+	"linkedin": "https://www.linkedin.com/in/loic-lepinois/",
+	"dates": [
+		{
+			"start": "2020-01-02T00:00:00.000Z",
+			"end": "2021-04-01T00:00:00.000Z"
+		}
+	]
+}

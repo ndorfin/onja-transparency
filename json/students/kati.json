@@ -1,0 +1,29 @@
+{
+	"name": "Kati Fanomezantsoa",
+	"short_name": "Kati",
+	"linkedin": "https://www.linkedin.com/in/kati-fanomezantsoa-104746292/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "north-street-creative",
+			"dates": {
+				"start": "2023-05-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "smylee",
+			"dates": {
+				"start": "2022-04-01T00:00:00.000Z",
+				"end": "2023-03-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "books2all",
+			"dates": {
+				"start": "2021-10-01T00:00:00.000Z",
+				"end": "2022-03-01T00:00:00.000Z"
+			}
+		}
+	]
+}

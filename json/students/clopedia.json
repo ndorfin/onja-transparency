@@ -1,0 +1,29 @@
+{
+	"name": "Clopedia Nomenjanahary",
+	"short_name": "Clopedia",
+	"linkedin": "https://www.linkedin.com/in/clopedia-nomenjanahary/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "wasabi-technologies",
+			"dates": {
+				"start": "2024-07-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "ebm",
+			"dates": {
+				"start": "2022-03-01T00:00:00.000Z",
+				"end": "2024-04-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "mobile-labs",
+			"dates": {
+				"start": "2021-10-01T00:00:00.000Z",
+				"end": "2021-11-30T00:00:00.000Z"
+			}
+		}
+	]
+}

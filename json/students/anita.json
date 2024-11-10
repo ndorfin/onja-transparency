@@ -1,0 +1,22 @@
+{
+	"name": "Anita Rasoa",
+	"short_name": "Anita",
+	"linkedin": "https://www.linkedin.com/in/anita-rasoa/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "90poe",
+			"dates": {
+				"start": "2022-08-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "lighthouse",
+			"dates": {
+				"start": "2021-06-01T00:00:00.000Z",
+				"end": "2022-07-01T00:00:00.000Z"
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Manjaka Randrianirina",
+	"short_name": "Manjaka",
+	"graduated": true,
+	"linkedin": "https://www.linkedin.com/in/manjaka-randrianirina/",
+	"clients": [
+		{
+			"id": "thds",
+			"dates": {
+				"start": "2024-05-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "goscore",
+			"dates": {
+				"start": "2022-06-01T00:00:00.000Z",
+				"end": "2024-03-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "eskwelabs",
+			"dates": {
+				"start": "2021-05-01T00:00:00.000Z",
+				"end": "2022-04-01T00:00:00.000Z"
+			}
+		}
+	]
+}

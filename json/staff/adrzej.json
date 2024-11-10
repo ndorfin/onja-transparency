@@ -1,0 +1,15 @@
+{
+	"name": "Adrzej Wower",
+	"short_name": "Adrzej",
+	"volunteer": true,
+	"type": "contract",
+	"origin": "pl",
+	"role": "Technical Lead",
+	"linkedin": "https://www.linkedin.com/in/andrzej-wower-4912a659/",
+	"dates": [
+		{
+			"start": "2021-02-01T00:00:00.000Z",
+			"end": "2023-02-01T00:00:00.000Z"
+		}
+	]
+}

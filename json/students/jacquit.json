@@ -1,0 +1,29 @@
+{
+	"name": "Jacquit Ratongamanahaja",
+	"short_name": "Jacquit",
+	"linkedin": "https://www.linkedin.com/in/jacquit-ratongamanahaja-510223270/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "austin-community-college",
+			"dates": {
+				"start": "2021-12-01T00:00:00.000Z",
+				"end": "2022-03-15T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "qidz",
+			"dates": {
+				"start": "2022-03-16T00:00:00.000Z",
+				"end": "2022-04-30T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "who-moves",
+			"dates": {
+				"start": "2022-05-01T00:00:00.000Z",
+				"end": "today"
+			}
+		}
+	]
+}

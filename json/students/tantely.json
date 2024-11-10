@@ -1,0 +1,22 @@
+{
+	"name": "Tantely Andrianarivola",
+	"short_name": "Tantely",
+	"graduated": true,
+	"linkedin": "https://www.linkedin.com/in/tantely-andrianarivola/",
+	"clients": [
+		{
+			"id": "90poe",
+			"dates": {
+				"start": "2022-06-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "voicescript",
+			"dates": {
+				"start": "2021-09-02T00:00:00.000Z",
+				"end": "2022-05-01T00:00:00.000Z"
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Jerome Emilien",
+	"short_name": "Jerome",
+	"linkedin": "https://www.linkedin.com/in/jerome-emilien/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "quick-think",
+			"dates": {
+				"start": "2021-10-01T00:00:00.000Z",
+				"end": "2021-12-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "share-scoops",
+			"dates": {
+				"start": "2021-12-01T00:00:00.000Z",
+				"end": "2023-09-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "inspired-consulting",
+			"dates": {
+				"start": "2024-02-01T00:00:00.000Z",
+				"end": "today"
+			}
+		}
+	]
+}

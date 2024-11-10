@@ -1,0 +1,36 @@
+{
+	"name": "Sandy Raveloarisoa",
+	"short_name": "Sandy",
+	"linkedin": "https://www.linkedin.com/in/sandy-raveloarisoa-804620221/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "protect-our-winters",
+			"dates": {
+				"start": "2021-08-01T00:00:00.000Z",
+				"end": "2021-12-15T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "whitespectre",
+			"dates": {
+				"start": "2021-12-16T00:00:00.000Z",
+				"end": "2022-12-31T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "ecogy-energy",
+			"dates": {
+				"start": "2023-04-01T00:00:00.000Z",
+				"end": "2023-09-30T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "allsafe",
+			"dates": {
+				"start": "2023-10-01T00:00:00.000Z",
+				"end": "today"
+			}
+		}
+	]
+}

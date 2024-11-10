@@ -1,0 +1,15 @@
+{
+	"name": "Shaun O'Connell",
+	"short_name": "Shaun",
+	"volunteer": true,
+	"type": "contract",
+	"origin": "za",
+	"role": "Lecturer (Web development)",
+	"linkedin": "https://www.linkedin.com/in/ndorfin/",
+	"dates": [
+		{
+			"start": "2020-01-02T00:00:00.000Z",
+			"end": "2020-10-01T00:00:00.000Z"
+		}
+	]
+}

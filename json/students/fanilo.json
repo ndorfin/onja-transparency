@@ -1,0 +1,29 @@
+{
+	"name": "Fanilo Andriamarohaja",
+	"short_name": "Fanilo",
+	"linkedin": "https://www.linkedin.com/in/fanilo-andriamarohaja/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "yk-robotics",
+			"dates": {
+				"start": "2023-06-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "akvo",
+			"dates": {
+				"start": "2022-05-01T00:00:00.000Z",
+				"end": "2022-10-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "austin-community-college",
+			"dates": {
+				"start": "2021-10-01T00:00:00.000Z",
+				"end": "2022-02-01T00:00:00.000Z"
+			}
+		}
+	]
+}

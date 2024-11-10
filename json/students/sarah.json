@@ -1,0 +1,29 @@
+{
+	"name": "Sarah Razanatsoa",
+	"short_name": "Sarah",
+	"linkedin": "https://www.linkedin.com/in/sarah-razanatsoa/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "inspired-consulting",
+			"dates": {
+				"start": "2024-02-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "share-scoops",
+			"dates": {
+				"start": "2021-12-01T00:00:00.000Z",
+				"end": "2023-10-01T00:00:00.000Z"
+			}
+		},
+		{
+			"id": "founder-tribes",
+			"dates": {
+				"start": "2021-03-01T00:00:00.000Z",
+				"end": "2021-08-01T00:00:00.000Z"
+			}
+		}
+	]
+}

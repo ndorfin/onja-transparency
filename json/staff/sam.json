@@ -1,0 +1,15 @@
+{
+	"name": "Sam Lucas",
+	"short_name": "Sam",
+	"volunteer": false,
+	"type": "permanent",
+	"origin": "nz",
+	"role": "Founder, Board member",
+	"linkedin": "https://www.linkedin.com/in/sam-lucas-onja/",
+	"dates": [
+		{
+			"start": "2013-02-01T00:00:00.000Z",
+			"end": "today"
+		}
+	]
+}

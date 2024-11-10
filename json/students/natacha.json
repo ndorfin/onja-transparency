@@ -1,0 +1,22 @@
+{
+	"name": "Natacha Harivelomandimby",
+	"short_name": "Natacha",
+	"linkedin": "https://www.linkedin.com/in/natacha-harivelomandimby-5b2a0b243/",
+	"graduated": true,
+	"clients": [
+		{
+			"id": "world-data-lab",
+			"dates": {
+				"start": "2022-06-01T00:00:00.000Z",
+				"end": "today"
+			}
+		},
+		{
+			"id": "common-ninja",
+			"dates": {
+				"start": "2022-02-01T00:00:00.000Z",
+				"end": "2022-05-01T00:00:00.000Z"
+			}
+		}
+	]
+}
