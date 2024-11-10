@@ -1,0 +1,10 @@
+---
+pagination:
+  data: staff
+  size: 1
+  alias: member
+  resolve: values
+permalink: "{{ url.json }}/staff/{{ member.short_name.toLowerCase() }}.json"
+layout: null
+---
+{{ member | stringify | safe }}

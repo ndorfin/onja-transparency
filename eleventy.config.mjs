@@ -26,7 +26,7 @@ export default async function(config) {
 	config.addPassthroughCopy({'src/assets': 'assets'});
 
 	/* Filters */
-	config.addFilter('markdown', (content) => {
+	config.addFilter('markdown', content => {
 		// Adds markdown support to any field
 		// e.g. {{ pattern.description | markdown | safe }}
 		return md.render(content);
@@ -38,8 +38,11 @@ export default async function(config) {
 		// by ignoring the filename (key), and extracting the values.
 		return Object.values(data);
 	});
-	config.addFilter('debug', (content) => {
+	config.addFilter('debug', content => {
 		return inspect(content);
+	});
+	config.addFilter('stringify', data => {
+		return JSON.stringify(data, null, '\t');
 	});
 	config.addFilter('groupedByYear', groupedByYear);
 

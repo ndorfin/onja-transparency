@@ -1,0 +1,10 @@
+---
+pagination:
+  data: students
+  size: 1
+  alias: student
+  resolve: values
+permalink: "{{ url.json }}/students/{{ student.short_name.toLowerCase() }}.json"
+layout: null
+---
+{{ student | stringify | safe }}
